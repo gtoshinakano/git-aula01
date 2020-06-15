@@ -21,6 +21,7 @@
         <li><code>ls</code>Lista todos os arquivos da pasta navegada pelo comando <i>cd</i></li>
         <li><code>cd ..</code> Navega até o diretório pai (parent). Ex: Navega de Desktop/app-projects -> Desktop</li>
         <li><code>mkdir <i class="cmd">nome_da_pasta</i></code> Cria uma nova pasta no diretório navegado</li>
+        <li><code>q</code> Sair de comando</li>
       </ul>
     </section>
     <section>
@@ -33,6 +34,21 @@
         <li><b>push</b>: Sobe os últimos commits ainda não atualizados no repositório remoto</li>
         <li><b>pull</b>: Baixa os últimos commits ainda não atualizados no repositório local</li>
         <li><b>checkout</b>: Volta todo o código para um commit anterior ou para um branch existente</li>
+        <li><b>.gitignore</b>: Arquivo de texto que lista todos os arquivos que devem ser ignorados pelo GIT. Se o arquivo estiver na lista, não é possível adicioná-lo ao stage</li>
+        <li><b>master</b>: Linha principal do repositório</li>
+      </ul>
+    </section>
+    <section>
+      <h1>Comandos GIT</h1>
+      <h3>No terminal:</h3>
+      <ul>
+        <li><code>git init</code>: Inicia um repositório novo e vazio</li>
+        <li><code>git remote add origin http://.......url.git</code>: Configura o endereço do repositório origem</li>
+        <li><code>git status</code>: Verifica o status dos arquivos. Caso algum arquivo esteja alterado do último commit, ele é destacado aqui</li>
+        <li><code>git diff</code>: Mostra as diferenças em todos os arquivos alterados e que não estão em stage.</li>
+        <li><code>git add <i>. ou nome do arquivo</i></code>: Adiciona os arquivos na stage para receberem o commit.</li>
+        <li><code>git commit -m "<i>: Mensagem entre aspas</i>"</code>Mensagem ou título do commit</li>
+        <li><code>git log</code>: Mostra uma lista com todos os commits do projeto do mais recente ao mais antigo</li>
       </ul>
     </section>
   </body>
