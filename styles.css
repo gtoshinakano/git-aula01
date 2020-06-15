@@ -2,6 +2,12 @@ body{
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
 }
 
-.header{
-  height: 80px
+code{
+  background-color: #dfdfdf;
+  padding:4px;
+  font-weight: bold;
+}
+
+.cmd{
+  color: red
 }
